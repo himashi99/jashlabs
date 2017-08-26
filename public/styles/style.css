@@ -1,0 +1,92 @@
+/* top-portion background */
+.hero-banner {
+	background-image: url("../assets/banner-image/banner.jpg"); 
+}
+
+.top-nav {
+	list-style-type: none;
+	/*display: inline;*/
+}
+.nav-menu {
+	display:inline;
+}
+
+.base-container {
+	height: 600px;
+}
+
+.rectange {
+	display:inline;
+}
+
+.company-name {
+ 	display: inline-block;
+ 	width: 154px;
+  	height: 29px;
+  	font-family: Montserrat;
+  	font-size: 24px;
+  	font-weight: bold;
+  	letter-spacing: 3px;
+  	text-align: left;
+  	color: #ffffff;
+  }
+
+.top-nav {
+	display: inline;
+	width: 493px;
+ 	height: 17px;
+ 	font-family: Montserrat;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	letter-spacing: 2px;
+ 	text-align: right;
+ 	color: #ffffff;
+ 	padding-right: 20px;
+ }
+
+.actualizing-ideas {
+ 	width: 778px;
+ 	height: 306px;
+ 	font-family: Montserrat;
+ 	font-size: 90px;
+ 	font-weight: bold;
+ 	line-height: 1.13;
+ 	letter-spacing: -0.1px;
+ 	text-align: left;
+ 	color: #ffffff;
+}
+
+.base-container-about-us {
+	text-align:center;
+}
+
+.about-us {
+	width: 120px;
+  	height: 30px;
+  	font-family: Montserrat;
+ 	font-size: 18px;
+  	font-weight: bold;
+  	line-height: 1.67;
+  	letter-spacing: 3px;
+  	text-align: center;
+  	color: #2d2d30;
+}
+
+.middle-content {
+  width: 848px;
+  height: 216px;
+  font-family: LibreBaskerville;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.whole-box {
+	height: 400px;
+}
+
+.blue-rectangle {
+	display: inline-block;
+}
