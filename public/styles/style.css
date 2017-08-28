@@ -79,4 +79,64 @@ li {
   line-height: 1.8;
   text-align: center;
   color: #4a4a4a;
+}
+.services-container {
+  height: 854px;
+}
+.black-bg {
+  background-color: #252839;
+}
+.services {
+  height: 32px;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+}
+.what-we-do {
+  height: 66px;
+  font-family: LibreBaskerville;
+  font-size: 48px;
+  line-height: 1.38;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #ffffff;
+}
+.what-we-do-content {
+  height: 108px;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+  color: #ffffff;
+}
+.example-title {
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+}
+.example-content {
+  height: 90px;
+  opacity: 0.75;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #ffffff;
+}
+.example {
+  display: inline-block;
+  width: 29%;
+  height: 75px;
+  margin: 10px;
+}
 
