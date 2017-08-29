@@ -7,18 +7,12 @@
 }
 .base-container {
   height: 600px;
-  border-width: 15Px;
-  border-top-color: blue
-}
-.wrapper {
-  border-color: blue
-  border-with: 15px;
 }
 .top-bar {
   padding: 20px;
 }
 .company-name {
-  text-transform:uppercase;
+  text-transform: uppercase;
   width: 154px;
   height: 29px;
   font-family: Montserrat;
@@ -29,7 +23,10 @@
   color: #ffffff;
 }
 .top-nav {
-display:inline-block;
+  display:inline-block;
+  width: 20%;
+  height: 75px;
+  margin: 10px;
 }
 ul {
   list-style-type: none;
@@ -45,6 +42,9 @@ ul {
 }
 li {
   display: inline;
+  width: 20%;
+  height: 75px;
+  margin: 10px;
 }
 .actualizing {
   padding-left: 55px;
@@ -61,7 +61,9 @@ li {
 .base-container {
   height: 612px;
 }
-.about-us {
+.page-title32 {
+  padding-top: : 150px;
+  text-transform: uppercase;
   height: 30px;
   font-family: Montserrat;
   font-size: 18px;
@@ -83,28 +85,38 @@ li {
 .services-container {
   height: 854px;
 }
+.services-container h6 {
+  color: #ffffff;
+}
+.services-container h4 {
+  color: #ffffff;
+}
+.services-container p {
+   color: #ffffff;
+}
 .black-bg {
   background-color: #252839;
 }
-.services {
-  height: 32px;
+.page-title {
+  padding-top: 150px;
+  text-transform: uppercase;
   opacity: 0.5;
+  height: 32px;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.6;
   letter-spacing: 3px;
   text-align: center;
-  color: #ffffff;
 }
-.what-we-do {
+.subtitle {
   height: 66px;
   font-family: LibreBaskerville;
   font-size: 48px;
   line-height: 1.38;
   letter-spacing: -1px;
   text-align: center;
-  color: #ffffff;
+  color: #2d2d30;
 }
 .what-we-do-content {
   height: 108px;
@@ -112,7 +124,7 @@ li {
   font-size: 20px;
   line-height: 1.8;
   text-align: center;
-  color: #ffffff;
+  color: #2d2d30;
 }
 .example-title {
   height: 30px;
@@ -135,8 +147,32 @@ li {
 }
 .example {
   display: inline-block;
-  width: 29%;
+  width: 27%;
   height: 75px;
   margin: 10px;
 }
-
+.show-case-container {
+  height: 941px;
+}
+.what-they-say {
+  height: 180px;
+  font-family: LibreBaskerville;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+  color: #2d2d30;
+}
+.black-bg .page-title32 {
+   color: #ffffff;
+   padding-top: 150px;
+}
+.contact-us-container {
+  height: 600px;
+}
+.contact-us-container .subtitle {
+  color: #ffffff;
+}
+.dmv-screenshot{
+  height:300px;
+}
