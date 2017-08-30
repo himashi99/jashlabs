@@ -151,8 +151,26 @@ li {
   height: 75px;
   margin: 10px;
 }
-.show-case-container {
-  height: 941px;
+.dmv-website {
+  width: 100%;
+  height: 418px;
+}
+.website-screenshot {
+  width: 45%;
+  height: 250px;
+  float: left;
+}
+.website-content {
+  width: 50%;
+  height: 250px;
+  background-color: pink;
+  float: right;
+}
+.sample-website {
+  width: 100%;
+  height: 552px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 .what-they-say {
   height: 180px;
@@ -172,7 +190,4 @@ li {
 }
 .contact-us-container .subtitle {
   color: #ffffff;
-}
-.dmv-screenshot{
-  height:300px;
 }
