@@ -92,7 +92,7 @@ li {
   color: #ffffff;
 }
 .services-container p {
-   color: #ffffff;
+ color: #ffffff;
 }
 .black-bg {
   background-color: #252839;
@@ -182,12 +182,65 @@ li {
   color: #2d2d30;
 }
 .black-bg .page-title32 {
-   color: #ffffff;
-   padding-top: 150px;
+ color: #ffffff;
+ padding-top: 150px;
 }
 .contact-us-container {
-  height: 600px;
+  height: 1000px;
+  padding: 10px;
+  color: #ffffff;
 }
 .contact-us-container .subtitle {
   color: #ffffff;
 }
+.get-in-touch {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.contact-form {
+  padding: 30px;
+  width: 50%; 
+}
+.contact-form div {
+  padding: 10px 0;
+}
+.contact-form input {
+  height: 30px;
+  width: 100%;
+}
+.get-in-touch h4{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 3px;
+  text-align: left;
+}
+.social {
+  padding: 30px;
+  width: 50%;
+  border-width: 5px;
+}
+.social h5 {
+  margin: 0;
+  opacity: 0.6;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.social p {
+  margin-top: 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+}
+
+
+
+
+
