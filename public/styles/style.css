@@ -200,7 +200,7 @@ li {
 }
 .contact-form {
   padding: 30px;
-  width: 50%; 
+  width: 50%;
 }
 .contact-form div {
   padding: 10px 0;
@@ -208,6 +208,76 @@ li {
 .contact-form input {
   height: 30px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contact-form textarea{
+  height: 174px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border: none;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: white;
+  opacity: 0.75;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  padding-top: 15px;
+  padding-left: 20px;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  opacity: 0.75;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  padding-top: 15px;
+  padding-left: 20px;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-ms-input-placeholder {
+  opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 0.75;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  padding-top: 15px;
+  padding-left: 20px;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0.5;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+ color: white;
+  opacity: 0.75;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  padding-top: 15px;
+  padding-left: 20px;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0.5;
+}
+input, select, textarea {
+  color: pink;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 .get-in-touch h4{
   font-family: Montserrat;
@@ -239,6 +309,7 @@ li {
   line-height: 1.88;
   text-align: left;
 }
+
 
 
 
